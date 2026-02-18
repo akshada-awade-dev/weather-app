@@ -91,8 +91,6 @@ https://api.openweathermap.org/geo/1.0/direct
 This project can be deployed on:
 
 - Vercel
-- Netlify
-- GitHub Pages
 
 Make sure:
 - API key is active
@@ -129,5 +127,6 @@ Improve weather animations
 Akshada Awade
 
 Aspiring Full Stack Developer 🚀
+
 
 

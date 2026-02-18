@@ -1,5 +1,5 @@
 ﻿
-#Project 2 - Weather App
+###Project 2 - Weather App
 
 A responsive Weather Application built using HTML, CSS, Bootstrap, and JavaScript.  
 The app fetches real-time weather data and hourly forecast using the OpenWeatherMap API.
@@ -126,6 +126,7 @@ Add recent search history
 Improve weather animations
 
 👩‍💻 Author
-Anu
+Akshada Awade
 
-Full Stack Developer 🚀
+Aspiring Full Stack Developer 🚀
+

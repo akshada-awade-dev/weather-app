@@ -1,0 +1,70 @@
+body {
+    background: url('./images/Breathtaking Nature Views to Refresh Your Soul.jpg') center/cover no-repeat;
+    color: white;
+}
+
+.card {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+    min-height: 220px;
+}
+
+.card-body {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-body img {
+    filter: blur(3px);
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.card-text {
+    position: relative;
+    z-index: 3;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.marquee-container {
+    overflow-x: auto;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#hourlyForecast {
+    display: flex;
+    gap: 20px;
+    min-width: max-content;
+}
+
+.marquee-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.marquee-container::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+.hourly-item {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(243, 241, 241, 0.788);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+}
